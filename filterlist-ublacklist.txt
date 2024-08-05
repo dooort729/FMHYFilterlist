@@ -1,14 +1,17 @@
-Here is the modified list with the format you requested:
-
-```
-# Title: FMHY Unsafe sites filterlist
-# Description: Blocks sites in the fmhy unsafe sites filterlists
+# Title: FMHY Unsafe sites filterlist# Description: Blocks sites in the fmhy unsafe sites filterlists
 # Last modified: 10 Jul 2024 08:48 UTC
 # Homepage: https://github.com/WindowsAurora/FMHYFilterlist
 # License: https://github.com/WindowsAurora/FMHYFilterlist/blob/main/LICENSE
 # Issues: https://github.com/WindowsAurora/FMHYFilterlist/issues
 # Entries: 262
 # Format: wildcard_domains
+
+# Real sites highlighted
+@1*://thepiratebay.org/*
+@1*://fitgirl-repacks.site/*
+@1*://1337x.to/*
+@1*://singlelogin.rs/*
+@1*://singlelogin.re/*
 
 # Unsafe game sites
 *://*.igg-games.com/*
@@ -289,6 +292,3 @@ Here is the modified list with the format you requested:
 *://*.officialkmspico.net/*
 *://*.officials-kmspico.com/*
 *://*.oficial-kmspico.com/*
-```
-
-This format uses the `*://*` wildcard to match any protocol (HTTP or HTTPS) and any subdomain.
